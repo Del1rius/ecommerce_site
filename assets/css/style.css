@@ -1,0 +1,11 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-image: url(../images/wallpapper2.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
