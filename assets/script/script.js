@@ -16,49 +16,6 @@ let products = [
   },
 ];
 
-let productMonitor = [
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: ""
-   },
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: ""
-   },
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: ""
-   }
-];
-
-let productDesktop = [
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: "",
-   },
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: "",
-   },
-   {
-    productImg: "https://i.postimg.cc/jSvxvPgx/desktop2.webp",
-    name: "Alienware Desktops",
-    description: "The Best Experience for High-End Gaming.",
-    price: "",
-   }
-];
-
-
 let dispProducts = document.querySelector("#featuredProducts");
 products.forEach((data) => {
   dispProducts.innerHTML += `
